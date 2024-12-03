@@ -81,10 +81,10 @@
 
 <section class="reviews">
 <h1>CLIENT REVIEWS</h1>
-    <div class="reviews-slider">
+    <div class="swiper-container reviews-slider">
        
-       <div class="wrapper">
-          <div class=" slide">
+       <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
             <div class="box">
             <img src="images/profile1.jpeg" alt="">
             <h3>John Mac</h3>
@@ -102,79 +102,95 @@
           </div>
         </div>
 
-          <div class=" slide">
+          <div class="swiper-slide slide">
           <div class="box">
-             <div class="stars">
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 
-              </div>
-              <p>The website's comprehensive information on destinations, accommodations, and activities was invaluable in helping me curate the perfect itinerary. I couldn't be happier with my choice!</p>
-              <h3>Shiwani Kamalini</h3>
-              <span>traveler</span>
-              <img src="images/profile2.jpeg" alt="">
-          </div>
-
-          <div class=" slide">
-             <div class="stars">
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
+          <img src="images/profile2.jpeg" alt="">
+          <h3>Shiwani Kamalini</h3>
+          <span>traveler</span>
+             <p>The website's comprehensive information on destinations, accommodations, and activities was invaluable in helping me curate the perfect itinerary. I couldn't be happier with my choice!</p>
+              
+              <div class="stars">
                 
-                 
-              </div>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+             </div>
+              
+          </div>
+        </div>
+          <div class="swiper-slide slide">
+            <div class="box">
+             <img src="images/profile3.jpeg" alt="">
+               <h3>Mohomad Ismail</h3>
+               <span>traveler</span>
+            
               <p>I highly recommend Master's travel to anyone seeking a hassle-free and enjoyable travel experience. Their commitment to customer satisfaction is truly commendable.</p>
-              <h3>Mohomad Ismail</h3>
-              <span>traveler</span>
-              <img src="images/profile3.jpeg" alt="">
+             
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i> 
+              </div>
+            </div>
           </div>
 
-          <div class=" slide">
-             <div class="stars">
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-              </div>
+
+          <div class="swiper-slide slide">
+            <div class="box">
+            <img src="images/profile4.jpeg" alt="">
+            <h3>Jenny Williyam</h3>
+            <span>traveler</span>
               <p>This travel website made my vacation stress-free and unforgettable! The personalized itineraries and great deals exceeded my expectations. Highly recommend it to anyone planning their next getaway!</p>
-              <h3>Jenny Williyam</h3>
-              <span>traveler</span>
-              <img src="images/profile4.jpeg" alt="">
-          </div>
+             
+              <div class="stars">
 
-          <div class=" slide">
-             <div class="stars">
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 
-              </div>
-              <p>Booking through this website was a breeze! The team’s attention to detail and quick support made my trip absolutely perfect. I couldn’t have asked for a better experience!</p>
-              <h3>Sanjeewa Fernando</h3>
-              <span>traveler</span>
-              <img src="images/profile5.jpeg" alt="">
-          </div>
-
-          <div class=" slide">
-             <div class="stars">
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 
-              </div>
-              <p>Amazing service and great value! The recommendations were fantastic, and everything was perfectly organized from start to finish. I’m already planning my next trip with them!</p>
-              <h3>Takumi Sora</h3>
-              <span>traveler</span>
-              <img src="images/profile6.jpeg" alt="">
-          </div>
-
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+           </div>
         </div>
 
+          <div class="swiper-slide slide">
+             <div class="box">
+             <img src="images/profile5.jpeg" alt="">
+             <h3>Sanjeewa Fernando</h3>
+             <span>traveler</span>
+             
+              <p>Booking through this website was a breeze! The team’s attention to detail and quick support made my trip absolutely perfect. I couldn’t have asked for a better experience!</p>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 
+              </div>
+              
+          </div>
+        </div>  
+   
+          <div class="swiper-slide slide">
+            <div class="box">
+            <img src="images/profile6.jpeg" alt="">
+            <h3>Takumi Sora</h3>
+            <span>traveler</span>
+            
+              <p>Amazing service and great value! The recommendations were fantastic, and everything was perfectly organized from start to finish. I’m already planning my next trip with them!</p>
+             
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 
+              </div>
+          </div>
+        </div>
+     </div>
      </div>
 
 

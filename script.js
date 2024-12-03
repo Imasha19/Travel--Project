@@ -19,11 +19,14 @@ var swiper = new Swiper(".home-slider", {
     },
 });
 
-/*var swiper = new Swiper(".reviews-slider", {
+var swiper = new Swiper(".reviews-slider", {
     loop:true, 
     spaceBetween: 20,
-    autoHeight:true,
-    grabCursor:true,
+    autoplay:{
+       delay:2500,
+       disableOnInteraction:false,
+
+    },
     breakpoints: {
         640: {
           slidesPerView: 1,
@@ -38,5 +41,5 @@ var swiper = new Swiper(".home-slider", {
           
         },
       },
-});*/
+});
 
