@@ -85,20 +85,25 @@
        
        <div class="wrapper">
           <div class=" slide">
-             <div class="stars">
+            <div class="box">
+            <img src="images/profile1.jpeg" alt="">
+            <h3>John Mac</h3>
+            <span>traveler</span>
+              <p>I had an incredible experience planning my trip with this website! The process was seamless, the recommendations were spot-on, and the customer service was outstanding. I’ll definitely use it again for my next adventure!</p>
+               
+              <div class="stars">
                  <i class="fas fa-star"></i>
                  <i class="fas fa-star"></i>
                  <i class="fas fa-star"></i>
                  <i class="fas fa-star"></i>
                  <i class="fas fa-star"></i>
               </div>
-              <p>I had an incredible experience planning my trip with this website! The process was seamless, the recommendations were spot-on, and the customer service was outstanding. I’ll definitely use it again for my next adventure!</p>
-              <h3>John Mac</h3>
-              <span>traveler</span>
-              <img src="images/profile1.jpeg" alt="">
+             
           </div>
+        </div>
 
           <div class=" slide">
+          <div class="box">
              <div class="stars">
                  <i class="fas fa-star"></i>
                  <i class="fas fa-star"></i>
