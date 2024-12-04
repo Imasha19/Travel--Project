@@ -296,7 +296,9 @@ section{
     background: rgb(231, 176, 246);
 }
 
-
+.home-packages .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
 
 .home-packages .box-container .box .image{
     height: 25rem;
@@ -436,6 +438,7 @@ section{
     background: white;
     text-align: center;
     box-shadow: black;
+    border-radius: .5rem;
 }
 
 
@@ -478,6 +481,149 @@ section{
     color: black;
     text-align: center;
 }
+
+.packages .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap:2rem; 
+}
+
+.packages .box-container .box{
+    border: black;
+    box-shadow: rgb(238, 1, 175);
+    background: rgb(192, 251, 158);
+    display: none;
+}
+
+.packages .box-container .box:nth-child(1),
+.packages .box-container .box:nth-child(2),
+.packages .box-container .box:nth-child(3),
+.packages .box-container .box:nth-child(4),
+.packages .box-container .box:nth-child(5),
+.packages .box-container .box:nth-child(6){
+    display: inherit;
+}
+
+
+
+
+
+.packages .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+
+.packages .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+}
+
+.packages .box-container .box .image img{
+    height: 100%;
+    width:100% ;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.packages .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.packages .box-container .box .content h3{
+     font-size: 2.5rem;
+     color: black;
+}
+
+.packages .box-container .box .content p{
+    font-size: 1.4rem;
+    color: black;
+    line-height: 2;
+    padding:1rem 0 ;
+}
+.packages .box-container .box .content .btn{
+    background: rgb(1, 74, 4);
+}
+
+
+.packages .load-more {
+        display: flex !important; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically if needed */
+        margin: 20px 0; /* Optional: Add some spacing around */
+        text-align: center;
+}
+
+.packages .load-more .btn{
+    padding: 10px 20px; /* Add padding for the button */
+    color: #fff; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block;
+    background: var(--main-color);
+}
+
+.booking .book-form{
+    padding: 2rem;
+    background: pink;
+    
+}
+
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.booking .book-form .flex .inputBox.error input{
+    border-color: red;
+}
+
+.booking .book-form .flex .inputBox.success input{
+    border-color:green;
+}
+
+.booking .book-form .flex .inputBox{
+    flex:1 1 41rem;
+}
+
+.booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: black;
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: black;
+}
+
+.booking .book-form .flex .inputBox input:focus::placeholder{
+    background: rgb(255, 168, 248);
+    color: var(--light-white);
+}
+
+.booking .book-form .flex .inputBox span{
+    font-size: 1.5rem;
+    color: var(--light-black);
+}
+
+.booking .book-form .btn{
+    margin-top: 2rem;
+    text-align: center;
+    background: rgb(151, 2, 126);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
