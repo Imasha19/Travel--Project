@@ -44,71 +44,12 @@
 
 <!--booking section starts-->
     
-<!--section class="booking">
-
-     <h1 class="heading-title">book your trip</h1>
-
-      <form action="book_form.php" method="post" class="book-form"  >
-          <div class="flex">
-          <div class="inputBox">
-                 <span>name :</span>
-                 <input type="text" placeholder="enter your name" name="name" required>
-          </div>
-
-
-              <div class="inputBox">
-                 <span>email :</span>
-                 <input type="text" placeholder="enter your email" name="email" required>
-                 <div class="error"></div>
-                 <div class="success"></div>
-          </div>
-
-              <div class="inputBox">
-                 <span>phone :</span>
-                 <input type="number" placeholder="enter 10 digit phone-number" name="phone" size="10" required>
-                 <div class="error"></div>
-                 <div class="success"></div>
-          </div>
-
-              <div class="inputBox">
-                 <span>address :</span>
-                 <input type="text" placeholder="enter your address" name="address" required>
-          </div>
-
-              <div class="inputBox">
-                 <span>where to :</span>
-                 <input type="text" placeholder="place you want to visit" name="location" required>
-          </div>
-
-              <div class="inputBox">
-                 <span>how many :</span>
-                 <input type="number" placeholder="number of guests" name="guests" required>
-          </div>
-
-              <div class="inputBox">
-                 <span>arrivals :</span>
-                 <input type="date" name="arrivals" required>
-          </div>
-
-          <div class="inputBox">
-                 <span>leaving :</span>
-                 <input type="date" name="leaving" required>
-          </div>
-
-     </div>
-
-          <input type="submit" value="submit" class="btn" name="send">
-
-  
-      </form>
-</section-->
-
-<!--booking section ends-->
 <section class="booking">
     <h1 class="heading-title">book your trip</h1>
 
     <form action="book_form.php" method="post" class="book-form" id="bookingForm">
         <div class="flex">
+        
             <div class="inputBox">
                 <span>name :</span>
                 <input type="text" placeholder="enter your name" name="name" required>
@@ -158,7 +99,7 @@
 
 
 
-
+<!--booking section ends-->
 
 
 
