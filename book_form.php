@@ -18,7 +18,7 @@
 
        mysqli_query($connection,$request);
 
-       header('location:book_display.php');
+       header('location:book_display.php? insert_msg=You have successfully inserted the data.');
     }else{
         echo 'something went wrong try again';
     }

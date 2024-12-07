@@ -117,6 +117,7 @@ section{
     font-size: 2rem;
     margin-left:2rem;
     color:var(--black);
+    
 }
 
 .header .navbar a:hover{
@@ -615,10 +616,77 @@ section{
 
 
 
+/* General Table Styles */
+.table-container {
+    width: 100%; /* Ensures the table container takes up the full width */
+    overflow-x: auto; /* Allows horizontal scrolling on smaller devices */
+    margin: 20px 0; /* Adds spacing around the table */
+}
 
+table {
+    width: 100%; /* Table adjusts to the container width */
+    border-collapse: collapse; /* Combines adjacent borders */
+    text-align: left; /* Aligns text to the left */
+}
 
+th, td {
+    padding: 12px 15px; /* Adds padding for better readability */
+    border: 1px solid #ddd; /* Adds light borders */
+}
 
+th {
+    background-color: #f4f4f4; /* Light background for headers */
+    font-weight: bold; /* Bold headers */
+}
 
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row color */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    th, td {
+        font-size: 14px; /* Smaller font size for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    table {
+        font-size: 12px; /* Further reduce font size */
+    }
+    th, td {
+        padding: 8px; /* Compact padding */
+    }
+}
+.box1 {
+    background: rgb(141, 101, 250);
+}
+
+.box1 a{
+    float: right;
+    text-decoration: none; 
+    
+    
+}
+
+.box1 .btn-primary{
+    display: inline-block;
+    background:var(--main-color);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    color: white;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+ 
+h6{
+    text-align: center;
+    background-color: yellow;
+    
+}
 
 
 
